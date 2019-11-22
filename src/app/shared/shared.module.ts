@@ -4,6 +4,9 @@ import {CardModule} from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
 import {DropdownModule} from 'primeng/dropdown';
 import {ButtonModule} from 'primeng/button';
+import {MenubarModule} from 'primeng/menubar';
+import {MenuItem} from 'primeng/api';
+
 
 const angular = [
   CommonModule
@@ -12,7 +15,8 @@ const primeng = [
   CardModule,
   InputTextModule,
   DropdownModule,
-  ButtonModule
+  ButtonModule,
+  MenubarModule,
 ];
 
 const modules = [

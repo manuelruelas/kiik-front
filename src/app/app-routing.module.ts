@@ -8,10 +8,15 @@ const routes: Routes = [
     loadChildren: () => import('./modules/login/login.module').then(m => m.LoginModule)
   },
   {
+    path: 'dashboard', 
+    loadChildren: () => import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule) 
+  },
+  {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'dashboard',
     pathMatch: 'full'
-  }
+  },
+  
 ];
 
 @NgModule({
