@@ -6,13 +6,15 @@ import { DashboardComponent } from './dashboard.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { DashboardTemplateComponent } from '../dashboard-template/dashboard-template.component';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
     SideMenuComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    DashboardTemplateComponent
   ],
   imports: [
     CommonModule,

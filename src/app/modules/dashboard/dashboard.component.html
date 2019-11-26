@@ -1,1 +1,14 @@
-<app-menu-bar></app-menu-bar>
+<mat-toolbar>
+  <span>toolbar</span>
+  <mat-sidenav-container style="flex: 1 1 auto;" fullscreen>
+      <mat-sidenav opened mode="side">
+        <h1>MENU</h1>
+        <ul>
+          <li>First element</li>
+        </ul>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        Sidenav content mat
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+</mat-toolbar>
