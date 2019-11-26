@@ -5,7 +5,6 @@ import { InputTextModule } from 'primeng/inputtext';
 import {DropdownModule} from 'primeng/dropdown';
 import {ButtonModule} from 'primeng/button';
 import {MenubarModule} from 'primeng/menubar';
-import {MenuItem} from 'primeng/api';
 
 
 const angular = [
