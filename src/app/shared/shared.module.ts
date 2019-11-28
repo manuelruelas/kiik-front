@@ -8,7 +8,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
-
+import { NgbCarouselModule } from "@ng-bootstrap/ng-bootstrap";
 
 
 const angular = [
@@ -25,16 +25,22 @@ const material = [
   MatButtonModule,
   LayoutModule
 ];
+const bootstrap = [
+  NgbCarouselModule,
+  
+]
 
 const modules = [
   ...angular,
-  ...material
+  ...material,
+  ...bootstrap
 ];
 
 @NgModule({
   declarations: [],
   imports: [
     ...modules
+    
   ],
   exports: [
     ...modules
