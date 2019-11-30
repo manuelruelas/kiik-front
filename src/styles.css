@@ -21,8 +21,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 100%;
 }
 .content{
-    position: absolute;
+    position: relative;
     top: 56px;
     min-height: 100%;
 }
 
+.footer-container{
+    
+   width:100 vw;
+   height: 70px;
+background-color: rgb(183, 28, 28);;
+}

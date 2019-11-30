@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-   this.images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/${window.screen.width}/${window.screen.height}`);
+   
   }
 
 }

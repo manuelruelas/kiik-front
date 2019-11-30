@@ -1,5 +1,21 @@
-ngb-carousel{
+.cover-img{
+   background-repeat: no-repeat;
+   background-size: cover;
    width: 100vw;
+   height: 100vh;
    
-   
+}
+
+.container-opacity{
+   background-color: rgba(255, 0, 0, 0.5);
+   height: 100%;
+   width: 100%;
+   margin:auto
+}
+
+.flex-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-content: center;
 }
