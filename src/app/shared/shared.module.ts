@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
 import { NgbCarouselModule } from "@ng-bootstrap/ng-bootstrap";
+import {MatDividerModule} from '@angular/material/divider';
 
 
 const angular = [
@@ -23,7 +24,8 @@ const material = [
   MatMenuModule,
   MatIconModule,
   MatButtonModule,
-  LayoutModule
+  LayoutModule,
+  MatDividerModule
 ];
 const bootstrap = [
   NgbCarouselModule,
