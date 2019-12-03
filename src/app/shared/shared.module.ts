@@ -10,12 +10,19 @@ import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
 import { NgbCarouselModule } from "@ng-bootstrap/ng-bootstrap";
 import {MatDividerModule} from '@angular/material/divider';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatListModule} from '@angular/material/list';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 
 const angular = [
   CommonModule
 ];
-
+const cdk = [
+  ScrollingModule
+];
 const material = [
   MatSidenavModule,
   MatToolbarModule,
@@ -25,7 +32,11 @@ const material = [
   MatIconModule,
   MatButtonModule,
   LayoutModule,
-  MatDividerModule
+  MatDividerModule,
+  MatDialogModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatListModule
 ];
 const bootstrap = [
   NgbCarouselModule,
@@ -35,7 +46,8 @@ const bootstrap = [
 const modules = [
   ...angular,
   ...material,
-  ...bootstrap
+  ...bootstrap,
+  ...cdk
 ];
 
 @NgModule({
