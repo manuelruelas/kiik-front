@@ -1,10 +1,10 @@
 <nav>
     <mat-toolbar class="nav-bar mat-elevation-z6" color="primary">
         <div class="nav-bar-content">
-            <a mat-button class="mat-button mat-button-base"><h1>KIIK</h1></a>
+            <a mat-button class="mat-button mat-button-base" [routerLink]="['/dashboard']"><h1>KIIK</h1></a>
             <span class="fill-space"> </span>
-            <a mat-button class="mat-button mat-button-base">Voluntarios</a>
-            <a mat-button class="mat-button mat-button-base">Peticiones</a>
+            <a mat-button class="mat-button mat-button-base" [routerLink]="['./volunteers']" routerLinkActive="router-link-active"  >Voluntarios</a>
+            <a mat-button class="mat-button mat-button-base" [routerLink]="['./request']">Peticiones</a>
             <a mat-button class="mat-button mat-button-base">Perfil</a>
         </div>
 
