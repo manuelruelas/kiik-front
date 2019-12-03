@@ -1,0 +1,31 @@
+<div class="page-header">
+        <h1>Peticiones</h1>
+    </div>
+    <div style="display: flex;">
+            <div style="width: 200px;">
+                <p style="font-size: large; margin:10px 5px">Tipos de sangre</p>
+                <mat-selection-list #bloodType>
+                    <mat-list-option>O+</mat-list-option>
+                    <mat-list-option>O-</mat-list-option>
+                    <mat-list-option>A+</mat-list-option>
+                    <mat-list-option>A-</mat-list-option>
+                    <mat-list-option>B+</mat-list-option>
+                    <mat-list-option>B-</mat-list-option>
+                    <mat-list-option>AB+</mat-list-option>
+                    <mat-list-option>AB-</mat-list-option>
+                </mat-selection-list>
+            </div>
+           
+                    <mat-divider [vertical]="true"></mat-divider>
+           
+            
+    
+            <div style="display: flex; flex-direction: column; margin: 0 auto ;" >
+                    <app-request-card></app-request-card>
+                    <app-request-card></app-request-card>
+                    <app-request-card></app-request-card>
+                <app-request-card></app-request-card>
+                <app-request-card></app-request-card>
+                <app-request-card></app-request-card>
+            </div>
+    </div>
